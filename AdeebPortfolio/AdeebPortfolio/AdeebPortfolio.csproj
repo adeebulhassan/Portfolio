@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <UserSecretsId>aspnet-AdeebPortfolio-1CF31AC9-96C1-4C68-94BD-19229BBB20F5</UserSecretsId>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.0.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.0" PrivateAssets="All" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.0.0" />
+    <DotNetCliToolReference Include="Microsoft.Extensions.SecretManager.Tools" Version="2.0.0" />
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Views\Home\blog-3-col.cshtml" />
+    <None Include="Views\Home\blogpost.cshtml" />
+    <None Include="Views\Home\contacts.cshtml" />
+    <None Include="Views\Home\feedback.cshtml" />
+    <None Include="Views\Home\index.cshtml" />
+    <None Include="Views\Home\portfolio-4-col.cshtml" />
+    <None Include="Views\Home\portfolio-item-01.cshtml" />
+    <None Include="Views\Home\resume.cshtml" />
+  </ItemGroup>
+
+</Project>
